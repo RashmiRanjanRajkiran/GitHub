@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>registration form </title>
+</head>
+<body>
+    <table border="1" cellspacing="15" cellpadding="23">
+        <form action="">
+            <tr>
+                <td colspan="3" bgcolor="yellow"><b>1.Registration form</b></td>
+            </tr>
+            <tr>
+                <td>1.0</td>
+                <td>Hzevcu got acliwe refeence munbe for ezolet th <br>
+                    NELIT Acereditzicn Etesior Certe</td>
+                <td> no<input type="radio"> yes<input type="radio"></td>
+            </tr>
+            <tr>
+                <td>1.1</td>
+                <td>Registration bought for</td>
+                <td><select name="dropdown" id="1">
+                    <option value="">level</option>
+                    <option value="">level2</option>
+                    <option value="">level3</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td>1.2</td>
+                <td>Applied for</td>
+                <td>Direct Candidate<input type="radio"> through candidate Candidate<input type="radio"></td>
+            </tr>
+            <tr>
+                <td>1.3</td>
+                <td>Exam cycle</td>
+                <td><input type="date"></td>
+            </tr>
+            <tr>
+                <td>1.4</td>
+                <td>Registration fee will be paid by</td>
+                <td><input type="text" size="15"></td>
+            </tr>
+            <tr>
+                <td colspan="3" bgcolor="pink">2.Apllicant Personal Details</td>
+            </tr>
+            <tr>
+                <td>2.1</td>
+                <td>Applicant's Full name</td>
+                <td><select name="dropdown" id="2" aria-placeholder="select">
+                    <option value="">mr</option>
+                    <option value="">mrs</option>
+                </select>
+            <input type="text"></td>
+            </tr>
+            <tr>
+                <td>2.2</td>
+                <td>care of</td>
+                <td><input type="radio">parents <input type="radio">guardian</td>
+            </tr>
+            <tr>
+                <td>2.2.1</td>
+                <td>Father's Name</td>
+                <td><select name="" id=""><option value="">mr</option><option value="">dr</option></select> <input type="text"></td>
+            </tr>
+            <tr>
+                <td>2.2.2</td>
+                <td>Mother's Name</td>
+                <td>
+                    <select name="" id="">
+                        <option value="">mrs</option>
+                    <option value="wer">dr</option>
+                    </select>
+                    <input type="text" value="mother's name">
+                </td>
+            </tr>
+            <tr>
+                <td>2.2</td>
+                <td>Gender</td>
+                <td>male <input type="radio"> female <input type="radio"> others <input type="others"></td>
+            </tr>
+            <tr>
+                <td>2.4</td>
+                <td>Date Of Birth</td>
+                <td><input type="year"></td>
+            </tr>
+            <tr>
+                <td>2.5</td>
+                <td>marital status</td>
+                <td><select name="" id=""><option value="">yes</option><option value="">no</option></select></td>
+            </tr>
+            <tr>
+                <td>2.6</td>
+                <td>Catagorey</td>
+                <td>
+                    <select name="" id="" value="--select--">
+                        <!--<option value="">--select--</option>-->
+                        <option value="--select--">OBC</option>
+                        <option value="">SC/ST</option>
+                        <option value="">GENERAL</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>2.7</td>
+                <td>Handicapped</td>
+                <td>Yes <input type="radio"> No <input type="radio"></td>
+            </tr>
+            <tr>
+                <td>2.8</td>
+                <td>Ex-serviceman</td>
+                <td>Yes <input type="radio"> No <input type="radio"></td>
+            </tr>
+            <tr>
+                <td>2.9</td>
+                <td>EWS</td>
+                <td>Yes <input type="radio"> No <input type="radio"></td>
+            </tr>
+            <tr>
+                <td>2.10</td>
+                <td>Religion</td>
+                <td>
+                    <select name="" id="">
+                        <option value="">--select--</option>
+                        <option value="">Hindu</option>
+                        <option value="">muslim</option>
+                        <option value="">Christian</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3" bgcolor="AQUA">3.Contact details</td>
+            </tr>
+            <tr>
+                <td>3.1</td>
+                <td>Mobile number</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>3.2</td>
+                <td>Email-Id</td>
+                <td><input type="text"></td>
+            </tr>
+        </form>
+    </table>
+</body>
+</html>
